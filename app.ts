@@ -17,3 +17,14 @@ const animalObj: {name: string, legs: number, tail: boolean} = {
 }
 
 console.log(animalObj)
+
+
+// Skriv en funktion som tar emot en sträng och returnerar en sträng. Om funktionen tar emot strängen “X” ska den returnera “hej X”
+
+function foo (x:string): string  {
+    return "Hej " + x
+}
+console.log(foo("Berit"))
+
+// Loopa igenom arrayen av strängar och kör funktionen på varje sträng och skriv ut till konsollen det du får från arrayen.
+// Kompilera, kör, commita och pusha.
